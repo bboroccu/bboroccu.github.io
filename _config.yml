@@ -1,4 +1,4 @@
-<<<<<<< .merge_file_ws3XA0
+<<<<<<< .merge_file_Zv4Fct
 # Site settings
 title: A blog about lorem ipsum dolor sit amet
 description: A blog about lorem ipsum dolor sit amet
@@ -72,4 +72,4 @@ plugins:
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
->>>>>>> .merge_file_Luzung
+>>>>>>> .merge_file_130NRE
