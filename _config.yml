@@ -1,11 +1,11 @@
 # Site settings
-name: 허재성
+name: 언제나 처음처럼
 email: bboroccu@gmail.com
-author: Freud Kang
+author: 허재성
 url: 
 resume_site: 
 github: https://bboroccu.github.io
-baseurl: "bboroccu.github.io"
+baseurl: ""
 description: 개발블러그
 meta_description: 개발블러그
 motto: 즐거운 세상
