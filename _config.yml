@@ -1,26 +1,20 @@
 # Site settings
-name: 언제나 처음처럼
-email: bboroccu@gmail.com
-author: 허재성
-url: 
-resume_site: 
-github: https://bboroccu.github.io
-baseurl: ""
-description: 개발블러그
-meta_description: 개발블러그
-motto: 즐거운 세상
-banner: 
+title: A blog about lorem ipsum dolor sit amet
+description: A blog about lorem ipsum dolor sit amet
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+# User settings
+username: 허재성
+user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+user_title: Software Developer
+email:bboroccu@gmail.com
+twitter_username: 
+github_username:  bboroccu
+gplus_username:  
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# Google-analytics
+google-analytics:
+  id: ""
 
-github_username: bboroccu
-
-# Build settings
-markdown: kramdown
-
-baidu_analysis: 
-
+exclude: ['package.json', 'src' , 'node_modules']
