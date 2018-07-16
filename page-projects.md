@@ -11,5 +11,5 @@ permalink: /projects
 	    <h1>All Projects</h1>
 	</div>
 
-	{% include projects-reveal.html %}
+	{% include projects.html %}
 </div>
