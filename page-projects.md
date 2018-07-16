@@ -1,6 +1,6 @@
 ---
 title: All Projects
-layout: default
+layout: page
 excerpt: "Brendan Thompson's Projects"
 permalink: /projects
 ---
