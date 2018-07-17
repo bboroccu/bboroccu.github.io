@@ -1,6 +1,7 @@
 # Site settings
 title: 천천히 꾸준히 길게
 description: 천천히 꾸준히 길게
+
 permalink: pretty
 
 # Sass
@@ -17,6 +18,7 @@ sass:
 # User settings
 username: 허재성
 user_title: Software Engineer
+user_description: 운동이 좋고 친구가 좋고 사람 좋은 개발자
 email: bboroccu@gmail.com
 
 exclude: ['package.json', 'src' , 'node_modules']
