@@ -1,0 +1,23 @@
+<!--
+    Posts Flexslider Display
+    Brendan Thompson
+
+    A Flexslider displaying Posts with images and captions sorted chronologically
+ -->
+
+ <div>
+	<div class="flexslider flex-design">
+		<ul class="slides">
+	  		{% for page in site.categories.blog %}
+	  		<li data-thumb="{{ page.image-slider }}">
+	  			<a href="{{ site.url}}{{ page.permalink }}">
+		    		<img src="{{ page.image-slider }}">
+		    		<hr>
+		    		<p class="flex-caption-title">{{ page.title }}</p>
+		    		<p class="flex-caption">{{ page.excerpt }}</p>
+		    	</a>
+	 		</li>
+	  		{% endfor %}
+		</ul>
+	</div>
+</div>
