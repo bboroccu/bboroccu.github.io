@@ -191,7 +191,7 @@ nav.primary ul {
     li {
         padding: 10px;
         margin: 0px;
-        background: transparent url('/assets/img/design/border-underline.png') left bottom repeat-x;
+        background: transparent url('/assets/img/border-underline.png') left bottom repeat-x;
         color: #fff;
         text-align: left;
         @include mobile {
@@ -273,7 +273,7 @@ nav.primary ul {
 .home-title {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    background: transparent url("/assets/img/design/header-line.png") repeat-x 0 60%;
+    background: transparent url("/assets/img/header-line.png") repeat-x 0 60%;
     h1, h2, h3 {
         background: #fff;
         display: inline-block;
