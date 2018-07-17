@@ -1,0 +1,66 @@
+// =====================================
+// Fonts
+// =====================================
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat'); // Headings
+@import url('https://fonts.googleapis.com/css?family=Raleway:300'); // Paragraphs
+
+// =====================================
+// Style For NavBar
+// =====================================
+
+nav.primary {
+  background: $main;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  z-index: 99;
+  h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 10%;
+    position: fixed;
+    @include mobile {
+      margin-left: 2%;
+    }
+  }
+}
+
+.nav-margin {
+  height: 75px;
+}
+
+nav.primary ul {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  float: right;
+  list-style-type: none;
+  margin-top: 35px;
+  margin-right: 10%;
+  @include mobile {
+    margin-right: 2%;
+  }
+  li {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 10px;
+  }
+  li:hover {
+    border-bottom: 4px solid #e9e9e9;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding:5px;
+    -webkit-transition: border .5s ease-out;
+  }
+  a.hover {
+    border-bottom: 4px solid #e9e9e9;
+    cursor: pointer;
+  }
+}
