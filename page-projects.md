@@ -1,7 +1,7 @@
 ---
 title: All Projects
 layout: page
-excerpt: "Brendan Thompson's Projects"
+excerpt: "bboroccu's Projects"
 permalink: /projects
 ---
 
