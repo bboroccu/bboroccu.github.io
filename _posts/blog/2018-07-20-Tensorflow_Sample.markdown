@@ -1,17 +1,15 @@
 ---
 layout: post
-title: An Introduction to the JUCE Framework
-author: Brendan Thompson
-date:   2017-08-13 2:30:00 -0400
-permalink: /juce-intro
+title: TensorFlow Sample & Category Predict
+author: 허재성
+date:   2018-07-20 2:30:00 -0400
+permalink: /tensorflow-sample
 categories: blog
-tags: Audio
-excerpt: A simple introduction to the JUCE C++ Audio Development Framework
-image: /assets/img/post-images/juce-logo.png
-imageAlt: JUCE Logo
-image2: /assets/img/post-images/juce.png
-image2Atl: JUCE Logo
-image-slider: /assets/img/post-images/slider-images/juce-logo-slider.png
+tags: Machine Learning
+excerpt: 모두를 위한 머신러닝 샘플코드와 상품카테고리 정보 학습으로 카테고리 분류
+image: 
+imageAlt: TensorFlow Sample & Category Predict
+image-slider:
 ---
 
 ## What Is JUCE?
