@@ -15,12 +15,23 @@ imageAlt: Service Monitoring
 image-slider: /assets/img/project-images/slider-images/monitoring-slider.jpg
 ---
 
-<div class="video-container">
+<div>
         <img src="http://bboroccu.github.io/assets/img/project-images/monitorstruct.png" width="80%"/>
 </div>
 
-Traffic Cop Hero 1000 is a Galaga inspired shooter developed by Brendan Thompson, Griffin Cobb, and Kelsey McCoy for a Transylvania University month long May Term Game Design Class. During the course we learned the basics of game & story design, but all of the actual development was left up to the students. We decided to use Unity because it is free, easy to use, and there are plenty of good tutorials online.
+## 요구사항
+1. 서비스 서버 상태 체크(배송연동, 하마 등 공통 사항)
+  - 서버 헬스 체크
+  - 디스크 공간 체크
+  - request 응답 속도 체크
+  - 실행 로그 체크
 
-- Created with Unity game Development Software
-- Programmed Scripts in C#
-- As a team developed the artwork, music, and gameplay
+2. 배송추적 싱크 체크
+  - CallbackUrl 전송 실패 체크
+
+3. 택배사 모니터링
+- 택배사 응답속도 체크
+- 택배사 타임아웃 체크
+
+4. 기타처리
+ - 택배 스캔 이상값 처리는 하마에서 별도 처리(별도 모니터링 필요 없음)
