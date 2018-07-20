@@ -9,9 +9,8 @@ categories: blog
 tags: JWT
 excerpt: JWT 샘플 코드
 github: https://github.com/bboroccu/JWT-Sample
-
-image: /assets/img/post-images/jwt_flow
-imageAlt: Ionic Logo
+image: /assets/img/post-images/jwt_flow.png
+imageAlt: JWT Sample
 image-slider: /assets/img/post-images/slider-images/jwt_flow-slider.png
 ---
 <div>
