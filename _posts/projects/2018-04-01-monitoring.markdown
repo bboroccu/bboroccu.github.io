@@ -32,6 +32,3 @@ image-slider: /assets/img/project-images/slider-images/monitoring-slider.jpg
 3. 택배사 모니터링
 - 택배사 응답속도 체크
 - 택배사 타임아웃 체크
-
-4. 기타처리
- - 택배 스캔 이상값 처리는 하마에서 별도 처리(별도 모니터링 필요 없음)
