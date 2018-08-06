@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ELK(ElasticSearch+Logstash+kibana)
+title: ELK
 author: 허재성
 date:   2018-08-06 18:00:00 -0400
 permalink: /ELK
 categories: blog
 tags: ElasticSearch
-excerpt: ELK기초 및 예제 테스트
+excerpt: ELK(ElasticSearch+Logstash+kibana)기초 및 예제 테스트
 github: https://github.com/bboroccu/ELK
 image: /assets/img/post-images/elkstack.png
 imageAlt: ELK(ElasticSearch+Logstash+kibana)
