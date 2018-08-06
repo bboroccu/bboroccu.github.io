@@ -16,6 +16,6 @@ image-slider: /assets/img/post-images/slider-images/elkstack_slider.png
 ## ELK Stack이란
 - Logstash를 이용하여 데이터를 수집하고 ElasticSearch로 데이터를 분류하여 Kibana로 표시해주는 것
 <div>
-        <img src="http://bboroccu.github.io/assets/img/blog-images/elk_model.jpg" width="50%"/>
+        <img src="http://bboroccu.github.io/assets/img/post-images/elk_model.jpg" width="50%"/>
 </div>
  
