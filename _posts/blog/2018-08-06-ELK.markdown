@@ -18,15 +18,16 @@ image-slider: /assets/img/post-images/slider-images/elkstack_slider.png
   <div>
         <img src="http://bboroccu.github.io/assets/img/post-images/elk_model.jpg" width="50%"/>
   </div>
-- 설치 방법
+
+- 설치 방법 <br>
+
   [설치링크](https://www.elastic.co/guide/kr/elasticsearch/reference/current/gs-installation.html)
 
 ## ElasticSearch
- - Apache Lucene을 바탕으로 개발된 분산 검색엔진으로 데이터를 쉽게 저장, 처리할 수 있으며, 실시간 검색과 플러그인을 이용한 확장을 지원하는 등의 장점이 있다.
+ - Apache Lucene을 바탕으로 개발된 분산 검색엔진으로 데이터를 쉽게 저장, 처리할 수 있으며, 실시간 검색과 플러그인을 이용한 확장을 지원하는 등의 장점이 있다.<br>
    또한 인덱스 갱신 주기도 빠른편이고 운영 중 스키마 변경도 가능하다.
 ## Logstash
- - 하나 또는 여러개의 입력값을 간단하게 우리가 원하는 데이터로 변경해 주는 ETL(for Extract, Transform, Load)라고 생각하면 된다. 설정은 JSON형태로
-   input, filter, output만 선언해 주면 되고 input형태는 file, S3 bucket, RabbitMQ, redis등을 지원한다.
+ - 하나 또는 여러개의 입력값을 간단하게 우리가 원하는 데이터로 변경해 주는 ETL(for Extract, Transform, Load)라고 생각하면 된다. 설정은 JSON형태로 input, filter, output만 선언해 주면 되고 input형태는 file, S3 bucket, RabbitMQ, redis등을 지원한다.
 
 ## Kibana
  - web-based data 분첫 및 dashboard tool을 제공하며, ElastisSearch의 결과를 수 초내로 보여주는 역할을 담당한다.
