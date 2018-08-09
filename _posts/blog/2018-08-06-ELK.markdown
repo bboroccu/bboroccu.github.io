@@ -29,7 +29,7 @@ image-slider: /assets/img/post-images/slider-images/elkstack_slider.png
      [개념 링크](https://www.elastic.co/guide/kr/elasticsearch/reference/current/gs-basic-concepts.html)<br>
        관계형 DB와 Elasticsearch 용어 비교
      |ElasticSearch	| 	RDB			|
-	| ---------- | --------- |
+     | :---------- | :--------- |
      |Index			|	Database	|
      |Type				|	Table		|
      |Document			|	Row			|
