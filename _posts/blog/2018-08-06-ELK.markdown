@@ -69,3 +69,4 @@ image-slider: /assets/img/post-images/slider-images/elkstack_slider.png
  로컬에서 ElasticSearch 테스트시  elasticsearch forbidden/12/index read-only / allow delete (api) 오류가 날경우 <br>
  curl -XPUT -H "Content-Type: application/json" http://localhost:9200/_all/_settings -d '{"index.blocks.read_only_allow_delete": null}'
 
+내용 추가중...
