@@ -13,7 +13,7 @@ imageAlt: SpringBatch
 image-slider: /assets/imgpost-images/slider-images/tf_logo_social_slider.png
 ---
 
-## Springboot Setting---
+## SpringBatch Sample---
 - Springbatch skip 처리 과정 정리
   샘플 코드로 정리한다.
 
@@ -37,13 +37,59 @@ image-slider: /assets/imgpost-images/slider-images/tf_logo_social_slider.png
   
 
 ```verilog
-2020-05-19 16:03:24.690  INFO 64159 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=TestJob]] launched with the following parameters: [{random=620593}] 2020-05-19 16:03:24.697  INFO 64159 --- [    Test worker] o.s.batch.core.job.SimpleStepHandler     : Executing step: [sampleStep1] 2020-05-19 16:03:24.698  INFO 64159 --- [    Test worker] c.t.s.b.linstener.SampleListener         : [STEP] beforeStep(sampleStep1) 2020-05-19 16:03:24.706  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 1 2020-05-19 16:03:24.706  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 2 2020-05-19 16:03:24.706  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 3 2020-05-19 16:03:24.711  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 1 2020-05-19 16:03:24.711  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 2 2020-05-19 16:03:24.714  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 4 2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 5 2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 6 2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 4 2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 5 2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 6 2020-05-19 16:03:24.717  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 7 2020-05-19 16:03:24.719  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 8 2020-05-19 16:03:24.719  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 9 2020-05-19 16:03:24.719  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 8 2020-05-19 16:03:24.719  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 9 2020-05-19 16:03:24.722  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 10 2020-05-19 16:03:24.722  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 10 2020-05-19 16:03:24.724  INFO 64159 --- [    Test worker] c.t.s.b.linstener.SampleListener         : total : 10, success : 8, fail : 2 2020-05-19 16:03:24.725  INFO 64159 --- [    Test worker] o.s.batch.core.step.AbstractStep         : Step: [sampleStep1] executed in 28ms 2020-05-19 16:03:24.729  INFO 64159 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=TestJob]] completed with the following parameters: [{random=620593}] and the following status: [COMPLETED] in 36ms
+2020-05-19 16:03:24.690  INFO 64159 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=TestJob]] launched with the following parameters: [{random=620593}] 
+2020-05-19 16:03:24.697  INFO 64159 --- [    Test worker] o.s.batch.core.job.SimpleStepHandler     : Executing step: [sampleStep1] 2020-05-19 16:03:24.698  INFO 64159 --- [    Test worker] c.t.s.b.linstener.SampleListener         : [STEP] beforeStep(sampleStep1) 2020-05-19 16:03:24.706  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 1 
+2020-05-19 16:03:24.706  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 2 
+2020-05-19 16:03:24.706  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 3 
+2020-05-19 16:03:24.711  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 1 
+2020-05-19 16:03:24.711  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 2 
+2020-05-19 16:03:24.714  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 4 
+2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 5 
+2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 6 
+2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 4 
+2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 5 
+2020-05-19 16:03:24.715  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 6 
+2020-05-19 16:03:24.717  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 7 
+2020-05-19 16:03:24.719  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 8 
+2020-05-19 16:03:24.719  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 9 
+2020-05-19 16:03:24.719  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 8 
+2020-05-19 16:03:24.719  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 9 
+2020-05-19 16:03:24.722  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 10 
+2020-05-19 16:03:24.722  INFO 64159 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 10 
+2020-05-19 16:03:24.724  INFO 64159 --- [    Test worker] c.t.s.b.linstener.SampleListener         : total : 10, success : 8, fail : 2 
+2020-05-19 16:03:24.725  INFO 64159 --- [    Test worker] o.s.batch.core.step.AbstractStep         : Step: [sampleStep1] executed in 28ms 
+2020-05-19 16:03:24.729  INFO 64159 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=TestJob]] completed with the following parameters: [{random=620593}] and the following status: [COMPLETED] in 36ms
 ```
 
 로그와 같이 될 것이라고 예상을 했지만 실제로는
 
 ```verilog
-2020-05-19 16:04:28.727  INFO 64301 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=TestJob]] launched with the following parameters: [{random=53975}] 2020-05-19 16:04:28.733  INFO 64301 --- [    Test worker] o.s.batch.core.job.SimpleStepHandler     : Executing step: [sampleStep1] 2020-05-19 16:04:28.734  INFO 64301 --- [    Test worker] c.t.s.b.linstener.SampleListener         : [STEP] beforeStep(sampleStep1) 2020-05-19 16:04:28.742  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 1 2020-05-19 16:04:28.742  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 2 2020-05-19 16:04:28.742  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 3 2020-05-19 16:04:28.745  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 1 2020-05-19 16:04:28.746  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 2 2020-05-19 16:04:28.747  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 1 2020-05-19 16:04:28.748  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 2 2020-05-19 16:04:28.750  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 4 2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 5 2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 6 2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 4 2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 5 2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 6 2020-05-19 16:04:28.754  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 7 2020-05-19 16:04:28.754  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 8 2020-05-19 16:04:28.755  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 9 2020-05-19 16:04:28.755  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 8 2020-05-19 16:04:28.755  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 9 2020-05-19 16:04:28.757  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 10 2020-05-19 16:04:28.757  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 10 2020-05-19 16:04:28.759  INFO 64301 --- [    Test worker] c.t.s.b.linstener.SampleListener         : total : 10, success : 8, fail : 2 2020-05-19 16:04:28.761  INFO 64301 --- [    Test worker] o.s.batch.core.step.AbstractStep         : Step: [sampleStep1] executed in 28ms 2020-05-19 16:04:28.765  INFO 64301 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=TestJob]] completed with the following parameters: [{random=53975}] and the following status: [COMPLETED] in 36ms
+2020-05-19 16:04:28.727  INFO 64301 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=TestJob]] launched with the following parameters: [{random=53975}] 
+2020-05-19 16:04:28.733  INFO 64301 --- [    Test worker] o.s.batch.core.job.SimpleStepHandler     : Executing step: [sampleStep1] 
+2020-05-19 16:04:28.734  INFO 64301 --- [    Test worker] c.t.s.b.linstener.SampleListener         : [STEP] beforeStep(sampleStep1) 
+2020-05-19 16:04:28.742  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 1 
+2020-05-19 16:04:28.742  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 2 
+2020-05-19 16:04:28.742  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 3 
+2020-05-19 16:04:28.745  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 1 
+2020-05-19 16:04:28.746  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 2 
+2020-05-19 16:04:28.747  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 1 
+2020-05-19 16:04:28.748  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 2 
+2020-05-19 16:04:28.750  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 4 
+2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 5 
+2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 6 
+2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 4 
+2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 5 
+2020-05-19 16:04:28.751  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 6 
+2020-05-19 16:04:28.754  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 7 
+2020-05-19 16:04:28.754  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 8 
+2020-05-19 16:04:28.755  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 9 
+2020-05-19 16:04:28.755  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 8 
+2020-05-19 16:04:28.755  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 9 
+2020-05-19 16:04:28.757  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : processing id : 10 
+2020-05-19 16:04:28.757  INFO 64301 --- [    Test worker] c.t.s.b.job.SampleJobConfiguration       : complete id : 10 
+2020-05-19 16:04:28.759  INFO 64301 --- [    Test worker] c.t.s.b.linstener.SampleListener         : total : 10, success : 8, fail : 2 
+2020-05-19 16:04:28.761  INFO 64301 --- [    Test worker] o.s.batch.core.step.AbstractStep         : Step: [sampleStep1] executed in 28ms 
+2020-05-19 16:04:28.765  INFO 64301 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=TestJob]] completed with the following parameters: [{random=53975}] and the following status: [COMPLETED] in 36ms
 ```
 
   와 같이 1,2,3 이 진행되다 3번에서 실패가 나니 다시 1,2가 실행이 되고 정상 처리가 되어 다음 4,5,6이 실행되고 7,8,9 실행이 될때 7,8,9가 실행이 된거처럼 보이지만 7에서 실패하여 7이 제외되고 다시 실행이되어 complete id는 8,9만 찍히게 됩니다. 전체 처리한 카운트는 동일하게 표시되지만 processor는 중복으로 호출하게 됩니다.
