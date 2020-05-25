@@ -10,7 +10,7 @@ excerpt: Springboot Unit Test
 github: https://github.com/bboroccu/Springboot-Mockito
 image: /assets/img/post-images/tf_logo_social.png
 imageAlt: SpringBoot & Mockito
-image-slider: /assets/imgpost-images/slider-images/tf_logo_social_slider.png
+image-slider: /assets/img/post-images/slider-images/tf_logo_social_slider.png
 ---
 
 ## Springboot Setting
