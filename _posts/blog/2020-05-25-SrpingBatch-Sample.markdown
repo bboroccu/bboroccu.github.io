@@ -8,9 +8,9 @@ categories: blog
 tags: SpringBatch
 excerpt: SpringBatch
 github: https://github.com/bboroccu/batchtest
-image: /assets/img/post-images/SpringBatch.png
+image: /assets/img/post-images/spring_batch.png
 imageAlt: SpringBatch
-image-slider: /assets/imgpost-images/slider-images/SpringBatch_slider.png
+image-slider: /assets/imgpost-images/slider-images/spring_batch_slider.png
 ---
 
 ## SpringBatch Sample---
