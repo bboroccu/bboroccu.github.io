@@ -13,7 +13,7 @@ imageAlt: SpringBatch
 image-slider: /assets/img/post-images/slider-images/spring_batch_slider.png
 ---
 
-## SpringBatch Sample---
+## SpringBatch Sample
 - Springbatch skip 처리 과정 정리
   샘플 코드로 정리한다.
 
